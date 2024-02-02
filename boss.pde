@@ -1,8 +1,8 @@
-class Shooter extends Invader {
+class boss extends Invader {
 
-    long mark, wait = 800; // ms
+    long mark, wait = 400; // ms
 
-    Shooter(float x, float y) {
+    boss(float x, float y) {
         super(x, y);
         mark = millis();
     }
